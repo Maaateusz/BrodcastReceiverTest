@@ -20,7 +20,7 @@ public class MyFirsReceiver extends BroadcastReceiver {
         }
 
         if(intent.getAction().equals("com.example.brodcastreceivertest.ASD")) {
-            Toast.makeText(context, "< Receiver MY ASD >", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "< Receiver MY RECEIVER >", Toast.LENGTH_SHORT).show();
         }
 
         if(intent.getAction() == WifiManager.WIFI_STATE_CHANGED_ACTION) {
